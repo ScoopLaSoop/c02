@@ -17,7 +17,7 @@ char	*ft_strlowcase(char *str)
 	i = 0;
 	while (str[i] != '\0')
 	{
-		if (97 <= str[i] && str[i] <= 122)
+		if (65 <= str[i] && str[i] <= 90)
 		{
 			str[i] = str[i] + 32;
 		}
